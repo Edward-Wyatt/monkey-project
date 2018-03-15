@@ -14,7 +14,8 @@ def check(s,r):
     return True
   return False
 
-
+#main sequence, iterates through, and creates a copy of the text by random number generation, likened to
+#eliminating monkeys that aren't typing the text. 
 for i in f.read():
   a = open("copy.txt",'a+')
   t = False
